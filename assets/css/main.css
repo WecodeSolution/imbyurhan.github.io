@@ -2,7 +2,7 @@
 
     Project:        Web Design Course Work
     Author:         Byurhan Beyzat
-    Date:           4.4.2017
+    Date:           xx.xx.2017
     Version:        1.0
 
 -------------------------------------------------------------------*/
@@ -11,7 +11,8 @@
 
 
 html, body {
-    width: 100%;
+    width: 1583px;
+    height: 770px;
 }
 
 body {
@@ -129,7 +130,7 @@ div.content {
     padding: 20px 20px;
 }
 
-/*------------ Aside Style -------------*/
+/*------------ Sidebar Style -------------*/
 
 aside {
     width: 380px;
@@ -141,19 +142,19 @@ aside {
     top: 201px;
 }
 
-.about-widget {
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-    padding: 10px 5px;
-}
-
 h4.widget-title {
     font-size: 17px;
     font-weight: 400;
     margin: 0 30px;    
     padding: 7px;
     border: 2px solid #eee;
+}
+
+.about-widget {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 5px;
 }
 
 .about-widget img {
@@ -172,8 +173,8 @@ h4.widget-title {
 .contact-widget {
     font-size: 16px;
     font-weight: 400;
-    padding: 0 5px;
     text-align: center;
+    padding: 0 5px 0 5px;
 }
 
 .widget-icons {
@@ -186,27 +187,23 @@ h4.widget-title {
 }
 
 .widget-icons li a {
-    padding: 0 5px;  
+    padding: 0 5px;
     color: #131517;
 }
 
-.widget-icons a i {
+.widget-icons i {
     width: 30px;
 	height: 30px;
     line-height: 30px;
     text-align: center;
-    border: 1px solid #eee;
     border-radius: 50%;
+    border: 1px solid #eee;
 }
 
-.widget-icons li a i:hover {
-    transition: 0.3s;
-    width: 30px;
-	height: 30px;
-    line-height: 30px;
-    text-align: center;
+.widget-icons i:hover {
     color: #fff;
     background-color: #131517;
     border: 1px solid #131517;
-    border-radius: 50%;
+    transition: .3s ease;
+    
 }
