@@ -1,0 +1,39 @@
+/* ----- Services Main Box ----- */
+
+h1.text1 {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    color: #000;
+    padding: 15px 0 0 0;
+}
+
+h1.text2 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+}
+
+.services-table {
+    position: absolute;
+    top: 350px;
+    left: 447px;
+}
+
+.services-table table {
+    border-collapse: collapse;
+	border-spacing: 0;
+    
+}
+
+.services-table table th {
+    color: #fff;
+    background-color: #131517;
+    padding: 15px;
+}
+
+.services-table table td {
+    color: #131517;
+    padding: 15px;
+}
