@@ -1,12 +1,3 @@
-/*------------------------------------------------------------------
-
-    Project:        Web Design Course Work
-    Author:         Byurhan Beyzat
-    Date:           xx.xx.2017
-    Version:        1.0
-
--------------------------------------------------------------------*/
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 
 
@@ -20,7 +11,7 @@ body {
     font-weight: 400;
     padding: 0px;
     margin: 0px;
-
+    
     color: #131517;
     background-color: #fff;
 }
@@ -50,7 +41,6 @@ a:hover {
 }
 
 
-
 /*---------- Header Style ----------*/
 
 header {
@@ -62,21 +52,20 @@ header {
 }
 
 header h1 {
-    font-weight: 600;
-    font-size: 36px; 
     color: #fff;
+    font-size: 36px;
+    font-weight: 600;
     position: absolute;
     left: 587.5px;    
     top: 30.5px;
 }
 
 header h1 span {
-    font-weight: 600;
-    font-size: 24px; 
-    line-height: 20px;
     display: block;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
 }
-
 
 /*---------- Navigation Style ----------*/
 
@@ -106,7 +95,9 @@ nav li a:hover {
     padding: 15px 14px 11px 14px;
 } 
 
+
 /*------------- Main Style -------------*/
+
 
 main {
     width: 1200px;
@@ -124,7 +115,7 @@ h1.welcome {
     padding: 15px 0 0 0;
 }
 
-div.content {
+.content {
     font-size: 16px;
     font-weight: 400;
     padding: 20px 20px;
@@ -132,21 +123,20 @@ div.content {
 
 /*------------ Sidebar Style -------------*/
 
+
 aside {
     width: 380px;
     height: 600px;
     margin: 1px 0;
     display: block;  
-    position: absolute;
-    right: 0px;
-    top: 201px;
+    float: right;
 }
 
-h4.widget-title {
+.widget-title {
+    padding: 7px;
+    margin: 0 30px;        
     font-size: 17px;
     font-weight: 400;
-    margin: 0 30px;    
-    padding: 7px;
     border: 2px solid #eee;
 }
 
@@ -207,3 +197,164 @@ h4.widget-title {
     transition: .3s ease;
     
 }
+
+
+/*-------------------- End Main Style --------------------*/
+
+
+
+
+/*-------------------- Start Pages Style --------------------*/
+/*----- Services Page -----*/
+
+h1.text1 {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    color: #000;
+    padding: 15px 0 0 0;
+}
+
+h1.text2 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+}
+
+.services-table {
+    position: absolute;
+    top: 350px;
+    left: 447px;
+}
+
+.services-table table {
+    border-collapse: collapse;
+	border-spacing: 0;
+    
+}
+
+.services-table table th {
+    color: #fff;
+    background-color: #131517;
+    padding: 15px;
+}
+
+.services-table table td {
+    color: #131517;
+    padding: 15px;
+}
+
+/*----- End Services Page -----*/
+
+/*----- Portfolio Page -----*/
+
+.projects {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 120px;
+    margin-top: 5px;
+}
+
+.projects li {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 5px;
+    background: #131517;
+    display: inline-block;
+}
+
+/*----- End Portfolio Page -----*/
+
+/*----- Contact Page -----*/
+
+.contact-form {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+form {
+    margin:0 auto;
+    width:459px;
+}
+
+input.input {
+    width:439px;
+	height:27px;
+	background-color:#efefef;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+textarea {
+	width:439px;
+	height:100px;
+	background-color: #efefef;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+input.radio {
+    font-size: 16px;
+    font-weight: 400;
+    background-color:#efefef;
+    margin: 10px;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #97d6eb;
+}
+
+#submit {
+	width:127px;
+	height:48px;
+	text-align: center;
+	border:none;
+	margin:20px 0 20px 0;
+	cursor:pointer;
+}
+	
+#submit:hover {
+	color:#fff;
+	background-color: #216182;
+	opacity:0.9;
+}
+
+#reset {
+	width:127px;
+	height:48px;
+	text-align: center;
+	border:none;
+	margin:20px 0 20px 0;
+	cursor:pointer;
+}
+
+#reset:hover {
+	color:#fff;
+	background-color: #000;
+	opacity:0.9;
+}
+
+
+/*----- End Contact Page -----*/
